@@ -7,6 +7,7 @@
 #   squared
 # end
 
-def square_array_collected 
+
+def square_array_collected (array)
   array.collect{|element| element**2}
 end
